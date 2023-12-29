@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.neighbors import KNeighborsClassifier
 import streamlit as st
 
-@st.cache
+@st.cache(suppress_st_warning=True)
 def load_data():
     # load dataset
     df = pd.read_csv('stroke-dataset.csv')
@@ -13,7 +13,7 @@ def load_data():
 
     return df, X, y 
 
-@st.cache
+@st.cache(suppress_st_warning=True)
 def train_model(X, y):
     model = KNeighborsClassifier(n_neighbors = 3)
     model.fit(X, y)
