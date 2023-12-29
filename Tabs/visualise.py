@@ -42,5 +42,8 @@ def app(df, X, y):
         plot_confusion_matrix(y_test, y_pred)  # Menampilkan confusion matrix menggunakan data uji
         
     if st.checkbox("Plot K-Neighboors"): 
+        k_value = st.slider("Pilih jumlah tetangga (K)", 1, 20, 8)  # Menambahkan kontrol slider untuk memilih jumlah tetangga
+        knn_visualization(k_value, X_test, y_test, model.predict(X_test))  # Menampilkan plot KNN menggunakan data uji
+    if st.checkbox("Plot K-Neighboors"): 
         k_value = 8  # Ganti sesuai kebutuhan
         knn_visualization(k_value, X_test, y_test, model.predict(X_test))  # Menampilkan plot KNN menggunakan data uji
