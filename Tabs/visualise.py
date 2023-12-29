@@ -31,6 +31,7 @@ def knn_visualization(k, X, y_test, y_pred):
     fig = plt.gcf()  # Simpan referensi ke gambar
     plt.close()  # Tutup plot
     st.pyplot(fig)  # Tampilkan gambar yang disimpan
+    
 def app(df, X, y):
     warnings.filterwarnings('ignore') 
     st.set_option('deprecation.showPyplotGlobalUse', False)
