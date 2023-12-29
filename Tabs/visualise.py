@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import train_test_split
 from web_functions import train_model, load_data 
-from streamlit.experimental import suppress_st_warning
 
+@st.cache(allow_output_mutation=True)
 def plot_confusion_matrix(y_test, y_pred):
     cm = confusion_matrix(y_test, y_pred)
     plt.figure(figsize=(6, 4))
@@ -18,6 +18,7 @@ def plot_confusion_matrix(y_test, y_pred):
     plt.close()  # Tutup plot
     st.pyplot(fig)  # Tampilkan gambar yang disimpan
 
+@st.cache(allow_output_mutation=True)
 def knn_visualization(k, X, y_test, y_pred):
     plt.figure(figsize=(10, 8))
     correct_pred = (y_pred == y_test)
