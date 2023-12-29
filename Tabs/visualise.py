@@ -13,11 +13,10 @@ def plot_confusion_matrix(y_test, y_pred):
     plt.xlabel('Predicted')
     plt.ylabel('Actual')
     plt.title('Confusion Matrix')
-    fig = plt.gcf() 
-    plt.close() 
-    st.image(fig, use_column_width=True)  
+    fig = plt.gcf()  # Simpan referensi ke gambar
+    plt.close()  # Tutup plot
+    st.pyplot(fig)  # Tampilkan gambar yang disimpan
 
-    
 def knn_visualization(k, X, y_test, y_pred):
     plt.figure(figsize=(10, 8))
     correct_pred = (y_pred == y_test)
@@ -29,10 +28,9 @@ def knn_visualization(k, X, y_test, y_pred):
     plt.title(f'KNN Scatter Plot (K = {k})')
     plt.legend()
     plt.scatter(x=X.iloc[0]['avg_glucose_level'], y=X.iloc[0]['age'], color='yellow', s=300, marker='*')  
-    fig = plt.gcf()  
-    plt.close() 
-    st.image(fig, use_column_width=True) 
-
+    fig = plt.gcf()  # Simpan referensi ke gambar
+    plt.close()  # Tutup plot
+    st.pyplot(fig)  # Tampilkan gambar yang disimpan
 def app(df, X, y):
     warnings.filterwarnings('ignore') 
     st.set_option('deprecation.showPyplotGlobalUse', False)
