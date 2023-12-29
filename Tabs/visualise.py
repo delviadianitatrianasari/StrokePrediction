@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import train_test_split
 from web_functions import train_model, load_data 
+from streamlit.experimental import suppress_st_warning
 
 def plot_confusion_matrix(y_test, y_pred):
     cm = confusion_matrix(y_test, y_pred)
