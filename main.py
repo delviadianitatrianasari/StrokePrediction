@@ -21,6 +21,6 @@ df, X, y = load_data()
 
 # Kondisi untuk Memanggil App Function
 if page in ["Prediction", "Visualisation"]:
-    Tabs[page].app(df, X, y)  
+    Tabs[page](df, X, y)  
 else:
-    Tabs[page].app()  
+    Tabs[page]()  
