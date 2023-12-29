@@ -1,6 +1,8 @@
 import streamlit as st
 from web_functions import load_data
-from Tabs import home,predict,visualise
+from Tabs.home import app as home 
+from Tabs.predict import app as predict
+from Tabs.visualise import app as visualise
 
 Tabs = {
     "Home": home, 
@@ -19,6 +21,6 @@ df, X, y = load_data()
 
 # Kondisi untuk Memanggil App Function
 if page in ["Prediction", "Visualisation"]:
-    Tabs[page](df, X, y)  
+    Tabs[page].app(df, X, y)  
 else:
-    Tabs[page]()  
+    Tabs[page].app()  
