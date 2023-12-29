@@ -33,7 +33,7 @@ def knn_visualization(k, X, y_test, y_pred):
     st.pyplot(fig)  # Tampilkan gambar yang disimpan
 
 def app(df, X, y):
-    warnings.filterwarnings('ignore') 
+    warnings.filterwarnings('ignore', category=streamlit.legacy_caching.caching.CachedObjectMutationWarning)
     st.set_option('deprecation.showPyplotGlobalUse', False)
 
     st.title("Visualisasi Prediksi Stroke")  
