@@ -58,14 +58,14 @@ Untuk membuat aplikasi stroke prediction,saya menggunakan dataset "Stroke Predic
 | 1  | id               | int64     |  Nomor identifikasi unik untuk setiap entitas atau individu dalam dataset.|
 | 2  | gender           | object    | Jenis kelamin atau identitas gender seseorang ("Male" or  "Female").      |
 | 3  | age              | float64   | Merupakan usia Pasien, umumnya diukur dalam tahun.                         |
-| 4  | hypertension     | int64     | Menunjukkan apakah Pasien memiliki tekanan darah tinggi(Memiliki Hipertensi (1)  atau Tidak Memiliki Hipertensi (0)).|
-| 5  | heart_disease    | int64     | Menunjukkan apakah Pasien memiliki penyakit jantung (Memiliki Penyakit Jantung(1) atau Tidak Memiliki Penyakit Jantung ).|
+| 4  | hypertension     | int64     | Menunjukan apakah Pasien memiliki tekanan darah tinggi(Memiliki Hipertensi (1)  atau Tidak Memiliki Hipertensi (0)).|
+| 5  | heart_disease    | int64     | Menunjukan apakah Pasien memiliki penyakit jantung (Memiliki Penyakit Jantung(1) atau Tidak Memiliki Penyakit Jantung ).|
 | 6  | ever_married     | object    | Menunjukan Apakah pasien Sudah Menikan ("Yes" or "No").|
-| 7  | work_type        | object    |  Merupakan Jenis pekerjaan pasien (children", "Govt_jov", 		          "Never_worked", "Private" or "Self-employed").|
+| 7  | work_type        | object    |  Merupakan Jenis pekerjaan pasien (children", "Govt_jov","Never_worked", "Private" or "Self-employed").|
 | 8  | residence_type   | object    | Merupakan tipe tempat tinggal pasien ("Rural" or "Urban")|
 | 9  | avg_glucose_level| float     |Merupakan tingkat rata-rata glukosa dalam darah pasien.                     |
 | 10 | bmi              | float64   | Merupakan indeks masa tubuh pasien.           |
-| 11 | smoking_status   | object    |  Menunjuukan status merokok pasien ("formerly smoked", "neve smoked", "smokes" or "Unknown").           |
+| 11 | smoking_status   | object    |  Menunjukan status merokok pasien ("formerly smoked", "neve smoked", "smokes" or "Unknown").           |
 | 12 | stroke           | int 64    |Variable target yang menunjukkan apakah pasien terkena stroke (1) atau tidak (0).    |
 
 
