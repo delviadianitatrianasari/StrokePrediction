@@ -39,13 +39,13 @@ Berdasarkan pernyataan masalah yang telah diidentifikasi, dapat dirumuskan beber
 ## Solution statements
   - Menggunakan Algoritma KNN untuk memprediksi risiko stroke berdasarkan data medis pasien,seperti tekanan darah tinggi,kolestrol,gula darah,dan gaya hidup.
   Manfaat :
-    1. Algoritma KNN adalah algoritma klasifikasi yang sederhana dan mudah diimplementasikan.
-    2. Algoritma KNN dapat bekerja dengan baik pada data yang tidak terdistribusi normal.
-    3. Algoritma KNN dapat digunakan untuk memprediksi risiko stroke berdasarkan data medis pasien.
+   -  Algoritma KNN adalah algoritma klasifikasi yang sederhana dan mudah diimplementasikan.
+   -  Algoritma KNN dapat bekerja dengan baik pada data yang tidak terdistribusi normal.
+   -  Algoritma KNN dapat digunakan untuk memprediksi risiko stroke berdasarkan data medis pasien.
   Metode Pengukuran:
-    1. Akurasi: Akurasi adalah ukuran seberapa sering model memprediksi dengan benar.
-    2. Sensitivitas: Sensitivitas adalah ukuran seberapa sering model memprediksi dengan benar bahwa seseorang akan terkena stroke.
-    3. Spesifisitas: Spesifisitas adalah ukuran seberapa sering model memprediksi dengan benar bahwa seseorang tidak akan terkena stroke.
+   -  Akurasi: Akurasi adalah ukuran seberapa sering model memprediksi dengan benar.
+   -  Sensitivitas: Sensitivitas adalah ukuran seberapa sering model memprediksi dengan benar bahwa seseorang akan terkena stroke.
+   -  Pesifisitas: Spesifisitas adalah ukuran seberapa sering model memprediksi dengan benar bahwa seseorang tidak akan terkena stroke.
   
 
 ## Data Understanding
