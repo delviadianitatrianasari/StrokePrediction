@@ -3,7 +3,7 @@
 ### Nim : 211351039
 ### Kelas : Pagi A
 
-## Prediksi Penyakit Stroke Menggunakan Algoritma K-Nearest Neighbor(KNN) 
+## Prediksi Stroke Menggunakan Algoritma K-Nearest Neighbor(KNN) 
 ### Latar Belakang
 
 Stroke adalah salah satu penyebab kematian dan kecacatan terbesar di dunia. Menurut Organisasi Kesehatan Dunia (WHO), stroke menyebabkan kematian sekitar 6,7 juta orang setiap tahun. Di Indonesia, stroke merupakan penyebab kematian tertinggi ketiga, setelah penyakit jantung dan kanker.
