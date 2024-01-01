@@ -6,7 +6,7 @@ import streamlit as st
 
 def app(df, X, y):
     st.title("Prediksi Penyakit Stroke")
-    st.image('Stroke.png')
+    st.image('img/Stroke.png')
     st.write('Enter the following features to stroke predict :')
 
     gender_dict = {'Male': 1, 'Female': 0}
