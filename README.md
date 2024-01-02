@@ -174,7 +174,7 @@ Heatmap yang menunjukkan korelasi antar atribut dalam DataFrame. Warna dari seti
       Mencari nilai optimal k dalam model KNN dengan menganalisis error rate pada berbagai nilai k.
     - Prediksi<br>
       Melakukan prediksi menggunakan model KNN yang sudah di-train.
-- **Visualisasi Hasil Modeling**<br
+- **Visualisasi Hasil Modeling**<br>
     Membuat visualisasi scatter plot untuk menunjukkan sebaran data dan lokasi prediksi.
 
 ## Modeling
