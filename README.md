@@ -25,8 +25,6 @@ Berikut adalah beberapa manfaat yang dapat diperoleh dari aplikasi Stroke Predic
 
 ### Problem Statements
 Berdasarkan latar belakang yang telah dijelaskan sebelumnya, dapat diidentifikasi beberapa pernyataan masalah yang relevan dengan proyek pembuatan aplikasi Stroke Prediction, yaitu:
-Bagian laporan ini mencakup:
-
 - Stroke adalah salah satu penyebab kematian dan kecacatan terbesar di dunia. Penting untuk dapat mendeteksi stroke secara dini agar dapat segera mendapatkan penanganan yang tepat.
 - Stroke dapat dicegah dengan menerapkan gaya hidup sehat, tetapi tidak semua stroke dapat dicegah.
 - Aplikasi Stroke Prediction dapat bermanfaat untuk meningkatkan kesadaran masyarakat tentang stroke dan membantu mendeteksi stroke secara dini.
