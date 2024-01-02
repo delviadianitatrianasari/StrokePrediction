@@ -14,7 +14,8 @@ Stroke dapat dicegah dengan menerapkan gaya hidup sehat, seperti mengonsumsi mak
 Pembuatan aplikasi Stroke Prediction bertujuan untuk membantu mendeteksi stroke secara dini. 
 
 Aplikasi ini akan menggunakan data medis pasien, seperti tekanan darah, kolesterol, gula darah, dan gaya hidup, untuk memprediksi risiko stroke.
-Aplikasi Stroke Prediction dapat bermanfaat untuk meningkatkan kesadaran masyarakat tentang stroke dan membantu mendeteksi stroke secara dini. Aplikasi ini juga dapat membantu dokter dalam memberikan diagnosis dan pengobatan yang tepat.Berikut adalah beberapa manfaat yang dapat diperoleh dari aplikasi Stroke Prediction:
+Aplikasi Stroke Prediction dapat bermanfaat untuk meningkatkan kesadaran masyarakat tentang stroke dan membantu mendeteksi stroke secara dini. Aplikasi ini juga dapat membantu dokter dalam memberikan diagnosis dan pengobatan yang tepat.<br>
+Berikut adalah beberapa manfaat yang dapat diperoleh dari aplikasi Stroke Prediction:
 - Meningkatkan kesadaran masyarakat tentang stroke.
 - Membantu mendeteksi stroke secara dini.
 - Membantu dokter dalam memberikan diagnosis dan pengobatan yang tepat.
