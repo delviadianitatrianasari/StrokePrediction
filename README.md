@@ -49,7 +49,7 @@ Berdasarkan pernyataan masalah yang telah diidentifikasi, dapat dirumuskan beber
   
 
 ## Data Understanding
-Untuk membuat aplikasi stroke prediction,saya menggunakan dataset "Stroke Prediction Dataset" dataset ini berisi tentang pasien dan riwayat stroke mereka. Data ini berjumlah 12 Atribut tetapi disini saya hanya menggunakan 8 atribut diantaranya:"gender,age,hypertension,heart_disease,ever_married_residence_type,avg_glucose_level,bmi".<br>
+Untuk membuat aplikasi stroke prediction,saya menggunakan dataset "Stroke Prediction Dataset" dataset ini berisi tentang pasien dan riwayat stroke mereka. Data ini berjumlah 12 Atribut tetapi disini saya hanya menggunakan 8 atribut diantaranya yaitu "gender,age,hypertension,heart_disease,ever_married_residence_type,avg_glucose_level,bmi".<br>
 [stroke-prediction-dataset](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)  
 
 ### Variabel-variabel pada Stroke Prediction Dataset adalah sebagai berikut:
