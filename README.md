@@ -69,7 +69,7 @@ Untuk membuat aplikasi stroke prediction,saya menggunakan dataset "Stroke Predic
 | 12 | stroke           | int 64    |Variable target yang menunjukkan apakah pasien terkena stroke (1) atau tidak (0).    |
 
 
-###**Visualisasi Data**:<br>
+### Visualisasi Data :<br>
 Berikut adalah beberapa hasil Visualisasi Exploratory Data Analysis :<br>
 ![Alt text](img/catplot1.png)<br>
 Jenis plot yang digunakan adalah 'catplot' yang dihasilkan adalah diagram batang yang menampilkan jumlah orang dalam dataset yang memiliki stroke atau tidak, dikelompokkan berdasarkan status merokok mereka.<hr>
