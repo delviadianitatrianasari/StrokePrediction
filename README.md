@@ -289,5 +289,6 @@ Analisis Berdasarkan Metrik Evaluasi
  ![Alt text](img/2.png)<br>
  ![Alt text](img/3.png)<br>
  ![Alt text](img/4.png)<br>
+ ![Alt text](img/5.png)<br>
 
 
